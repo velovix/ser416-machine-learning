@@ -1,0 +1,6 @@
+*.egg-info/
+Car Data/
+gcroots/
+__pycache__/
+venv/
+default.nix
