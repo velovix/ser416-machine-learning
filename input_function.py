@@ -113,8 +113,13 @@ class CarData:
                 input_raw =  [val for val in input_item._asdict().values()]
                 output_raw = [val for val in output_item._asdict().values()]
 
+                #fake_input_raw = np.full_like(input_raw, 30)
+                #fake_output_raw = np.full_like(output_raw, 60)
+
                 input_sequence.append(input_raw)
                 output_sequence.append(output_raw)
+                #input_sequence.append(fake_input_raw)
+                #output_sequence.append(fake_output_raw)
 
             input_sequence = input_sequence[:4]
             output_sequence = output_sequence[:4]
