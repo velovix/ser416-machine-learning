@@ -1,4 +1,4 @@
-tensorflow-gpu==1.7
+tensorflow-gpu==2.4.2
 pandas
 xlrd
 matplotlib
